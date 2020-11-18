@@ -115,7 +115,6 @@ const store = {
                   }
 
     ],
-    quizStarted: false,
     questionNumber: 0,
     correct: 0,
     incorrect: 0
