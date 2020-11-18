@@ -230,17 +230,12 @@ const store = {
 
 //function that gets triggered when the user submits an answer
  function handleSubmit() {
-   $(".question-form").on("click", `.answerSubmit`, event => {
+   $(".question-form").submit(event => {
      event.preventDefault();
      console.log("Answer submit was clicked");
      let userAnswer = $("input[name='answer']:checked").val();
-     if(userAnswer != undefined) {
-     console.log("User answered " + userAnswer);
      answerCheck(userAnswer);
      main();
-     } else {
-       alert("Please select an answer!")
-     };
    })
    
 }
