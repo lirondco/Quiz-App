@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.question {
+.question-form {
     text-align: left;
 }
 
@@ -49,5 +49,7 @@ img {
         margin: 2%;
     }
 }
+
+
 
 

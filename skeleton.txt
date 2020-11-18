@@ -1,0 +1,114 @@
+WELCOME PAGE:
+
+Hey there! Let's nerd out a bit. I will ask you ten questions, two from each categories:
+Geography, Astronomy, History, Languages, and Earth Sciences. Are you ready? 
+[Let's go!]
+
+Questions:
+
+GEOGRAPHY: What is the capital of Illinois?
+-Aurora
+-Chicago
+-Rockford
+-Springfield
+
+ASTRONOMY: Which of the following is not a moon of Jupiter?
+-Miranda
+-Ganymede
+-Europa
+-Callisto
+
+HISTORY: Which city is traditionally said to be built on seven hills?
+-Athens
+-Jerusalem
+-Rome
+-San Francisco
+
+LANGUAGES: A dialect of vulgar latin eventually developed into langue d'oil and langue d'oc, whicht then evolved into which two distinct languages? 
+-Spanish and Portuguese
+-French and Occitan
+-Catalan and Monagesque
+-Italian and Sardinian
+
+EARTH SCIENCES: What is the most abundant element in the Earth's crust?
+-Carbon
+-Nitrogen
+-Sulfur
+-Oxygen <
+
+GEOGRAPHY: Which country has the longest coastline?
+-Canada
+-Indonesia
+-Japan
+-Russia
+
+ASTRONOMY: Which planet radiates more heat than it gets from the sun?
+-Jupiter
+-Saturn
+-Neptune
+-All of these
+
+HISTORY: In which country did the Easter Rising take place in 1916?
+-Armenia
+-Ireland
+-Italy
+-Russia
+
+LANGUAGES: Which language was successfully revived by Eliezer Ben Yehuda after not being anyone's native spoken language and is now the primary language spoken in a country of more than 8 million people?
+-Hebrew
+-Togan
+-Belarusian
+-Serbian
+
+EARTH SCIENCES: What is the name of the famous fault along California?
+-Mariana's Fault
+-San Francisco Fault
+-Itsyour Fault
+-San Andrea's Fault
+
+
+ <div class="welcomePage">
+            <h3 class="welcomeMessage">Hey there! Let's nerd out a bit. 
+                I will ask you ten questions, two from each category: geography,
+                astronomy, history, languages, and earth sciences. Are you ready?
+            </h3>
+            <button class="startQuiz" alt="Let's go">Let's go!</button>
+            <img src="https://media.giphy.com/media/F9xSlEGUPObba/giphy.gif" alt="Cady character from mean girls saying Jambo">
+        </div>
+        <div class="questionPage">
+            <form type="submit" class="question">
+                <h3>
+                    QUESTION 1: GEOGRAPHY: What is the capital of Illinois?
+                </h3>
+                <input type="radio" name="answer" id="answer 1" class="answer" value="answer 1" required>
+                <label for="answer 1">Answer 1</label><br>
+                <input type="radio" name="answer" id="answer 1" class="answer" value="answer 1">
+                <label for="answer 1">Answer 1</label><br>
+                <input type="radio" name="answer" id="answer 1" class="answer" value="answer 1">
+                <label for="answer 1">Longer Answer 1</label><br>
+                <input type="radio" name="answer" id="answer 1" class="answer" value="answer 1">
+                <label for="answer 1">Answer 1</label><br>
+                <button type="submit" class="answerSubmit">Submit Answer</button>
+            </form>
+            <p>Correct: 0</p><p>Incorrect: 0</p>
+        </div>
+        <div class="correctPage">
+            <h3>Great job! Answer 1 is the correct answer!</h3>
+            <p>Correct: 0</p><p>Incorrect: 0</p>
+            <button type="submit" class="nextQuestion">Next Question</button>
+            <img src="https://media.giphy.com/media/l4q7TIW8nEZYOJUf6/giphy.gif" alt="Bravocado">
+        </div>
+        <div class="wrongPage">
+            <h3>Oh no! The correct answer is answer 2. Better luck next time!</h3>
+            <p>Correct: 0</p><p>Incorrect: 0</p>
+            <button type="submit" class="nextQuestion">Next Question</button>
+            <img src="https://media.giphy.com/media/xUPGcl3ijl0vAEyIDK/giphy.gif" alt="there was an attempt">
+        </div>
+        <div class="endOfQuiz">
+            <h3>All done! Let's see how you did!</h3>
+            <h3>Correct: 9</h3>
+            <h3>Incorrect: 1</h3>
+            <button class="restartQuiz" alt="do it again">Do it again!</button>
+            <img src="https://media.giphy.com/media/3o85xK9ReqLLQD8GL6/giphy.gif" alt="dancing glob">
+        </div>
+
