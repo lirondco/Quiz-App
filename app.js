@@ -157,7 +157,7 @@ const store = {
        <label for="answer">${selection[2]}</label><br>
        <input type="radio" name="answer" id="answer-d" class="answer" value="${selection[3]}">
        <label for="answer">${selection[3]}</label><br>
-       <button type="submit" class="answerSubmit" autofocus>Submit Answer</button>
+       <button type="submit" class="answerSubmit">Submit Answer</button>
    </form>
    <p>Correct: ${store.correct}</p><p>Incorrect: ${store.incorrect}</p>
 </div>`
@@ -170,7 +170,7 @@ const store = {
    html =  `<div class="correctPage">
    <h3>Great job! ${answer} is the correct answer!</h3>
    <p>Correct: ${store.correct}</p><p>Incorrect: ${store.incorrect}</p>
-   <button class="nextQuestion" autofocus>Next Question</button>
+   <button class="nextQuestion">Next Question</button>
    <img src="https://media.giphy.com/media/l4q7TIW8nEZYOJUf6/giphy.gif" alt="Bravocado">
 </div>`
  }
@@ -182,7 +182,7 @@ const store = {
    html =  `<div class="wrongPage">
    <h3>Oh no! The correct answer is ${answer}. Better luck next time!</h3>
    <p>Correct: ${store.correct}</p><p>Incorrect: ${store.incorrect}</p>
-   <button class="nextQuestion" autofocus>Next Question</button>
+   <button class="nextQuestion">Next Question</button>
    <img src="https://media.giphy.com/media/xUPGcl3ijl0vAEyIDK/giphy.gif" alt="there was an attempt">
 </div>`
  }
@@ -195,7 +195,7 @@ const store = {
    <h3>All done! Let's see how you did!</h3>
    <h3>Correct: ${store.correct}</h3>
    <h3>Incorrect: ${store.incorrect}</h3>
-   <button class="restartQuiz" alt="do it again" autofocus>Do it again!</button>
+   <button class="restartQuiz" alt="do it again">Do it again!</button>
    <img src="https://media.giphy.com/media/3o85xK9ReqLLQD8GL6/giphy.gif" alt="dancing glob">
 </div>`
   store.incorrect = 0;
