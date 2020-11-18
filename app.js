@@ -56,7 +56,7 @@ const store = {
           'Sulfur',
           'Oxygen'
         ],
-        correctAnswer: 'oxygen'
+        correctAnswer: 'Oxygen'
         },
         {
           question: 'Which country has the longest coastline?',
